@@ -19,8 +19,7 @@ public class HomeController {
 
     @RequestMapping("/")
     @ResponseBody
-    public String index() {
-        return "Welcome everyone !";
+    public String index() { return "Welcome everyone !";
     }
 
     @GetMapping("/user")
